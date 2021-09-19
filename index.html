@@ -1,0 +1,40 @@
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 05
+  </title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Aluraflix
+    </h1>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+    <p class="page-subtitle">
+      Qual seu filme favorito?
+    </p>
+    <div class="form-wrapper">
+      <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
+      <input type="text" id="nomeFilme" name="nomeFilme" placeholder="Insira o nome do filme">
+      <button onClick="adicionarFilme()">Adicionar Filme</button>
+    </div>
+  </div>
+  <div id="listaFilmes">
+    <div onclick="this.remove()"><img src="https://upload.wikimedia.org/wikipedia/pt/thumb/6/69/The_Avengers_Cartaz.jpg/250px-The_Avengers_Cartaz.jpg">
+      <p>Avengers</p>
+    </div>
+    <div onclick="this.remove()"><img src="https://br.web.img2.acsta.net/c_310_420/medias/nmedia/18/87/91/95/19962896.jpg">
+      <p>Harry Potter 7 </p>
+    </div>
+    <div onclick="this.remove()"><img src="https://upload.wikimedia.org/wikipedia/pt/3/32/The_Notebook_p%C3%B4ster.jpg">
+      <p>Diário de uma paixão </p>
+    </div>
+  </div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+</body>
+
+</html>
